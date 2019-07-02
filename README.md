@@ -50,7 +50,7 @@ Now, you will need to choose your database. Is it going to be SQLite3? Is it goi
 
 This is the new version of my  `Gemfile`:
 
-# Gemfile
+### Gemfile
 source '[https://rubygems.org](https://rubygems.org/)'
 
 ~~~
@@ -99,7 +99,7 @@ The above  `db/config.yml`  file is an indicative file for the sqlite3 database.
 
 Now go ahead and create a  `Rakefile`  at the root folder of your project. This file needs to have the following content:
 
-# Rakefile
+### Rakefile
 ~~~
 require 'standalone_migrations'
 StandaloneMigrations::Tasks.load_tasks
